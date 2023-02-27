@@ -1,0 +1,29 @@
+body {
+    font-family:"Roboto Condensed";
+    background-color: #D4B6D6;
+    color: #4000DB;
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family:Phudu;
+    font-size:50pt;
+}
+
+header {
+    text-align:center;
+}
+
+#hero, footer {
+    background-color: #000852;
+    border:2px solid #4000DB;
+    color: #956FDA;
+    text-align: center;}
+#hero img {
+    width:300px;
+}
+
+#bio { 
+    text-align: center;
+    color:#000852;
+}
