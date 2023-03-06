@@ -1,29 +1,100 @@
+/* General */
+
 body {
     font-family:"Roboto Condensed";
     background-color: #D4B6D6;
-    color: #4000DB;
-
+    color:#000852;
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family:Phudu;
-    font-size:50pt;
-}
+    font-family:Phudu; }
+
+h1 {font-size:50pt;}
 
 header {
     text-align:center;
 }
 
+/* Hero */
+
 #hero, footer {
     background-color: #000852;
-    border:2px solid #4000DB;
-    color: #956FDA;
+    border:2px solid #485CA8;
+    color: #D4B6D6;
     text-align: center;}
+
 #hero img {
     width:300px;
 }
 
+/* Bio */
+
 #bio { 
     text-align: center;
-    color:#000852;
+}
+
+/* Hobbies */
+
+#hobbies h2 {text-align: center;}
+
+#hobbies {
+   border: #485CA8 solid 2px;
+   margin-bottom:2rem;
+
+}
+
+#hobbies ul li:nth-child(2n+1){
+    color: #485CA8;
+    font-weight: bold;
+}
+
+#hobbies ul li:nth-child(even){
+    background-color: #7583bd;
+}
+/* Gallery */
+
+#gallery {
+    border: 2px solid #485CA8;
+    margin-bottom:2rem;
+    background-color: #956FDA;
+    text-align: center;
+}
+
+#gallery img {
+    max-width:100%;
+}
+
+/* Literature */
+#lit {
+    border: 2px solid #485CA8;
+    margin-bottom:2rem;
+}
+
+#lit div {
+    padding:2rem;
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+#lit div p {
+    padding: 0.3rem 0;
+    clear:both;
+}
+
+#lit h2 {
+    padding:2rem;
+    max-width: 40rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#lit p:first-letter {
+    color: #956FDA;;
+    font-size: 20pt;
+    font-family: Phudu;
+
+}
+
+#lit p{
+    font-size: 11pt;
 }
