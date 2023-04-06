@@ -11,6 +11,10 @@ h1,h2,h3,h4,h5,h6 {
 
 h1 {font-size:50pt;}
 
+h2 {
+    margin: 0.5em;
+}
+
 header {
     text-align:center;
 }
@@ -18,9 +22,9 @@ header {
 /* Hero */
 
 #hero, footer {
-    background-color: #000852;
+    background-color: #956FDA;
     border:2px solid #485CA8;
-    color: #D4B6D6;
+    color: #000852;
     text-align: center;}
 
 #hero img {
@@ -51,6 +55,13 @@ header {
 #hobbies ul li:nth-child(even){
     background-color: #7583bd;
 }
+
+#hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* Gallery */
 
 #gallery {
@@ -97,4 +108,27 @@ header {
 
 #lit p{
     font-size: 11pt;
+}
+
+/* tablet size */
+
+@media screen and (min-width: 60em){
+    
+/* gallery */
+
+figure {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+figcaption {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+figure img {
+    width:100%;
+}
 }
