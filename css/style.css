@@ -4,15 +4,17 @@ body {
     font-family:"Roboto Condensed";
     background-color: #D4B6D6;
     color:#000852;
+    font-size:1.5rem;
 }
 
 h1,h2,h3,h4,h5,h6 {
     font-family:Phudu; }
 
-h1 {font-size:50pt;}
+h1 {font-size:6rem;}
 
 h2 {
     margin: 0.5em;
+    font-size:3rem;
 }
 
 header {
@@ -76,9 +78,11 @@ header {
 }
 
 /* Literature */
+
 #lit {
     border: 2px solid #485CA8;
     margin-bottom:2rem;
+
 }
 
 #lit div {
@@ -99,20 +103,26 @@ header {
     text-align: center;
 }
 
-#lit p:first-letter {
-    color: #956FDA;;
-    font-size: 20pt;
+/* Dropcaps */
+
+#lit p:first-child:first-letter {
     font-family: Phudu;
+    color: #000852;;
+    background-image: radial-gradient(#fff,#000852);
+    font-size: 3.5rem;
+    padding:0.25rem;
+    margin-right:0.25rem;
+    border:1px solid #000852;
 
 }
 
 #lit p{
-    font-size: 11pt;
+    font-size: 1.5rem;
 }
 
 /* tablet size */
 
-@media screen and (min-width: 60em){
+@media screen and (min-width:60em){
     
 /* gallery */
 
@@ -131,4 +141,41 @@ figcaption {
 figure img {
     width:100%;
 }
+
+/* literature */
+
+#lit div {
+    max-width:100%;
+    columns:40rem;
+
+}
+
+}
+
+
+/* laptop sized screens */
+
+@media screen and (min-width:100em) {
+
+#gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+hr {
+    display:none;
+}
+
+#gallery h2 {
+    grid-column: 1/-1;
+}
+
+figure {
+    display:block;
+}
+
+#hotdog {
+    margin-top: 350px;
+}
+
 }
