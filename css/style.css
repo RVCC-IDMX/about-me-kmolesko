@@ -1,5 +1,18 @@
 /* General */
 
+/* 
+
+COLORS:
+ light pink: #D4B6D6
+ navy blue: #000852
+ deep purple: #310c52
+ periwinkle: #485CA8
+ light purple: #9479c6
+
+
+*/
+
+
 body {
     font-family:"Roboto Condensed";
     background-color: #D4B6D6;
@@ -15,6 +28,7 @@ h1 {font-size:6rem;}
 h2 {
     margin: 0.5em;
     font-size:3rem;
+    text-align: center;
 }
 
 header {
@@ -24,8 +38,8 @@ header {
 /* Hero */
 
 #hero, footer {
-    background-color: #956FDA;
-    border:2px solid #485CA8;
+    background-color: #9479c6;
+    border:3px solid #310c52;
     color: #000852;
     text-align: center;}
 
@@ -44,7 +58,7 @@ header {
 #hobbies h2 {text-align: center;}
 
 #hobbies {
-   border: #485CA8 solid 2px;
+   border: #485CA8 solid 3px;
    margin-bottom:2rem;
 
 }
@@ -54,9 +68,6 @@ header {
     font-weight: bold;
 }
 
-#hobbies ul li:nth-child(even){
-    background-color: #7583bd;
-}
 
 #hobbies {
     display: flex;
@@ -67,9 +78,9 @@ header {
 /* Gallery */
 
 #gallery {
-    border: 2px solid #485CA8;
+    border: 3px solid #310c52;
     margin-bottom:2rem;
-    background-color: #956FDA;
+    background-color: #9479c6;
     text-align: center;
 }
 
@@ -80,7 +91,7 @@ header {
 /* Literature */
 
 #lit {
-    border: 2px solid #485CA8;
+    border: 3px solid #485CA8;
     margin-bottom:2rem;
 
 }
@@ -108,11 +119,12 @@ header {
 #lit p:first-child:first-letter {
     font-family: Phudu;
     color: #000852;;
-    background-image: radial-gradient(#fff,#000852);
+    background-image: radial-gradient(white,#000852);
     font-size: 3.5rem;
     padding:0.25rem;
     margin-right:0.25rem;
     border:1px solid #000852;
+    box-shadow: 2px 2px 5px #000852;
 
 }
 
@@ -149,9 +161,7 @@ figure img {
     columns:40rem;
 
 }
-
 }
-
 
 /* laptop sized screens */
 
@@ -179,3 +189,57 @@ figure {
 }
 
 }
+
+/* Contact Form */
+
+#formElements {
+    display:grid;
+    row-gap:.5em; 
+
+}
+
+#contact {
+    padding:1rem;
+    max-width: 600px;
+    margin:2rem auto;
+}
+
+fieldset {
+    border: 2px solid #000852;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+legend {
+    background-color: #485CA8;
+    color: whitesmoke;
+    padding:0.5em;
+    border: 2px solid #000852;
+
+}
+
+#contact input, #contact textarea, #contact select, #contact button {
+    padding: 0.5em;
+    font-size: 1rem;
+}
+
+#contact ul {
+    list-style:none;
+    padding:0px;
+}
+
+#contact li {
+    margin:1rem;
+}
+
+#contact button {
+    font-size: 1.5rem;
+    background-image: radial-gradient(white,#000852);
+    color: #000852;
+    border: 2px solid #000852;
+    max-width:400px;
+    width:50%;
+    justify-self: center;
+    box-shadow: 3px 3px 5px #000852;
+}
+
