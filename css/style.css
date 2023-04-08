@@ -243,10 +243,10 @@ legend {
     box-shadow: 3px 3px 5px #000852;
 }
 
-.wrapper {
+/* .wrapper {
     margin: 0 auto;
-    width:80%;
-}
+    width:100%;
+} */
 
 .videowrapper {
     position:relative;
