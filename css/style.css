@@ -80,7 +80,7 @@ header {
 #gallery {
     border: 3px solid #310c52;
     margin-bottom:2rem;
-    background-color: #9479c6;
+    
     text-align: center;
 }
 
@@ -243,3 +243,45 @@ legend {
     box-shadow: 3px 3px 5px #000852;
 }
 
+.wrapper {
+    margin: 0 auto;
+    width:80%;
+}
+
+.videowrapper {
+    position:relative;
+    padding-bottom: 56%;
+    padding-top:25px;
+    height:0px;
+}
+
+.videowrapper iframe {
+    position:absolute;
+    left:0px;
+    top:0px;
+    bottom:0px;
+    right:0px;
+    height:100%;
+    width:100%;
+}
+
+
+.wrapper figcaption {
+    
+    margin-top: 30px;
+   color:#485CA8;
+   font-weight: bold;
+}
+
+#video {
+    border: 3px solid #310c52;
+}
+
+.videowrapper {
+    border: 4px solid #000852;
+    box-shadow: 8px 8px 12px #000852;
+}
+
+#video figure {
+    margin-bottom: 70px;
+}
