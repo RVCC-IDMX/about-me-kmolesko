@@ -245,7 +245,8 @@ legend {
 
 /* .wrapper {
     margin: 0 auto;
-    width:100%;
+    padding:0;
+    
 } */
 
 .videowrapper {
@@ -285,3 +286,30 @@ legend {
 #video figure {
     margin-bottom: 70px;
 }
+
+/* laptop sized screens: */
+
+@media screen and (min-width:100em) {
+
+#video figure {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.videowrapper {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+#video figcaption {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-left: 1rem;
+}}
+ */
+ 
