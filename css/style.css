@@ -4,10 +4,30 @@
 
 COLORS:
  light pink: #D4B6D6
- navy blue: #000852
- deep purple: #310c52
+ navy blue: #00033D
+ deep purple: 00033D
  periwinkle: #485CA8
  light purple: #9479c6
+
+VERSION 2
+
+background grey/black: #1F1F1B
+text whiteish: #E7E8E3
+yellow: #F7EFA8
+other color: green? #86B2A5
+other color: red? C77264
+other color: purple #A799C7;
+*/
+
+
+/* Version 3 FINAL CHOICE
+
+#BF6ED9 light purp
+#080808 blackish
+#f5f5f5 white smoke
+#F7EFA8 yellow
+#2D0059 dark purp
+
 
 
 */
@@ -15,8 +35,8 @@ COLORS:
 
 body {
     font-family:"Roboto Condensed";
-    background-color: #D4B6D6;
-    color:#000852;
+    background-color: 	#080808 ;
+    color:#f5f5f5;
     font-size:1.5rem;
 }
 
@@ -29,6 +49,7 @@ h2 {
     margin: 0.5em;
     font-size:3rem;
     text-align: center;
+    color:#BF6ED9;
 }
 
 header {
@@ -38,9 +59,9 @@ header {
 /* Hero */
 
 #hero, footer {
-    background-color: #9479c6;
-    border:3px solid #310c52;
-    color: #000852;
+    background-color: whitesmoke;
+    /* border:5px solid #2D0059 ; */
+    color: #080808;
     text-align: center;}
 
 #hero img {
@@ -55,19 +76,31 @@ header {
 
 /* Hobbies */
 
-#hobbies h2 {text-align: center;}
+#hobbies h2 {text-align: center;
+margin-bottom: 0rem;
+padding-bottom: 0rem;
+}
 
 #hobbies {
-   border: #485CA8 solid 3px;
+   border: #F7EFA8 solid 3px;
    margin-bottom:2rem;
 
 }
 
-#hobbies ul li:nth-child(2n+1){
-    color: #485CA8;
-    font-weight: bold;
+#hobbies ul li{
+    list-style:none}
+
+
+/* 
+#hobbies ul li:nth-child(odd){
+    color: #86B2A5;
+    list-style: none;
 }
 
+#hobbies ul li:nth-child(even){
+    color: #C77264;
+    list-style: none;
+} */
 
 #hobbies {
     display: flex;
@@ -78,7 +111,7 @@ header {
 /* Gallery */
 
 #gallery {
-    border: 3px solid #310c52;
+    border: 3px solid #F7EFA8;
     margin-bottom:2rem;
     
     text-align: center;
@@ -91,7 +124,9 @@ header {
 /* Literature */
 
 #lit {
-    border: 3px solid #485CA8;
+    background-color:whitesmoke;
+    color:#1F1F1B;
+/*     border: 3px solid #F7EFA8; */
     margin-bottom:2rem;
 
 }
@@ -118,18 +153,24 @@ header {
 
 #lit p:first-child:first-letter {
     font-family: Phudu;
-    color: #000852;;
-    background-image: radial-gradient(white,#000852);
-    font-size: 3.5rem;
-    padding:0.25rem;
+    color:  #080808;
+    background-image: radial-gradient(whitesmoke,#BF6ED9,#2D0059);
+    font-size: 3rem;
+    padding-right:0.25rem;
+    padding-left:0.25rem;
+    margin-bottom:0.5rem;
     margin-right:0.25rem;
-    border:1px solid #000852;
-    box-shadow: 2px 2px 5px #000852;
+    border:1px solid #080808;
+    box-shadow: 2px 2px 5px #2D0059;
 
 }
 
 #lit p{
     font-size: 1.5rem;
+}
+
+#lit h2{
+    color:#080808
 }
 
 /* tablet size */
@@ -202,25 +243,31 @@ figure {
     padding:1rem;
     max-width: 600px;
     margin:2rem auto;
+    background-color: whitesmoke;
+    color:#080808;
 }
 
 fieldset {
-    border: 2px solid #000852;
+    border: 2px solid #080808;
     margin-top: 1em;
     margin-bottom: 1em;
 }
 
 legend {
-    background-color: #485CA8;
+    background-color: /* #485CA8 */ #BF6ED9;
     color: whitesmoke;
     padding:0.5em;
-    border: 2px solid #000852;
+    border: 2px solid #080808;
 
 }
 
 #contact input, #contact textarea, #contact select, #contact button {
     padding: 0.5em;
     font-size: 1rem;
+}
+
+#contact h2 {
+    color:#080808
 }
 
 #contact ul {
@@ -234,13 +281,13 @@ legend {
 
 #contact button {
     font-size: 1.5rem;
-    background-image: radial-gradient(white,#000852);
-    color: #000852;
-    border: 2px solid #000852;
+    background-image: radial-gradient(whitesmoke,#BF6ED9,#2D0059);
+    color: #2D0059;
+    border: 2px solid #2D0059;
     max-width:400px;
     width:50%;
     justify-self: center;
-    box-shadow: 3px 3px 5px #000852;
+    box-shadow: 2px 2px 4px #2D0059;
 }
 
 /* .wrapper {
@@ -270,17 +317,19 @@ legend {
 .wrapper figcaption {
     
     margin-top: 30px;
-   color:#485CA8;
+   color:#F7EFA8;
    font-weight: bold;
 }
 
 #video {
-    border: 3px solid #310c52;
+    border: 3px solid #F7EFA8;
 }
 
 .videowrapper {
-    border: 4px solid #000852;
-    box-shadow: 8px 8px 12px #000852;
+    border: 3px solid  
+    #BF6ED9;
+   /*  box-shadow: 2px 2px 6px  
+    #BF6ED9; */
 }
 
 #video figure {
