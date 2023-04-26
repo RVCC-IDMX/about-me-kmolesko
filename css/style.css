@@ -62,11 +62,14 @@ header {
     background-color: whitesmoke;
     /* border:5px solid #2D0059 ; */
     color: #080808;
-    text-align: center;}
+    text-align: center;
+}
 
 #hero img {
     width:300px;
+    margin-top:3rem;
 }
+
 
 /* Bio */
 
@@ -225,11 +228,6 @@ figure {
     display:block;
 }
 
-#hotdog {
-    margin-top: 350px;
-}
-
-}
 
 /* Contact Form */
 
