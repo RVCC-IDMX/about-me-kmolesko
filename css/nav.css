@@ -137,7 +137,9 @@ main {
         .navbar img {
         width:2rem;}
 
-        .nav-menu img {width:3rem
+        .nav-menu img {
+            width:3rem
+    
          }
     
     #nav-checkbox:checked ~ ul.nav-menu li {

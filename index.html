@@ -18,12 +18,17 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/nav.css" rel="stylesheet">
 
+
+<!-- Content:-->
+
 </head>
 
 <body>
 
     <header>
         <h1 class="logo-title">Web Dev 1</h1>
+
+        <!-- Navbar: -->
             <nav class="navbar">
               <input type="checkbox" id="nav-checkbox" class="nav-checkbox">
               <label for="nav-checkbox" class="nav-toggle">
@@ -31,22 +36,26 @@
                    <img src="img/closex.svg" class="close" id="close">
               </label>  
                     <ul class="nav-menu">
-                        <li>
+                        <!-- Logo: -->
+                        <li> 
                             <img 
                                 src= "img/finallogo.svg"
                                 class="log-img"
                                 alt="kjm logo">
                         </li>
-                        <li><a href="#bio" class="nav-links" id="links">Bio</a></li>
-                        <li><a href="#gallery" class="nav-links" id="links">Gallery</a></li>
-                        <li><a href="#lit" class="nav-links" id="links">Blog</a></li>
-                        <li><a href="#contact" class="nav-links" id="links">Contact Me</a></li>
+                        <!-- Navigation Items: -->
+                        <li><a href="#bio" class="nav-links" id="links"><h2>Bio</h2></a></li>
+                        <li><a href="#gallery" class="nav-links" id="links"><h2>Gallery</h2></a></li>
+                        <li><a href="#lit" class="nav-links" id="links"><h2>Blog</h2></a></li>
+                        <li><a href="#contact" class="nav-links" id="links"><h2>Contact Me</h2></a></li>
                     </ul>
-            </nav>    
+            </nav>  
+
     </header>
 
     <main>
 
+        <!-- Hero: -->
         <section id="hero">
             <img src="img/picture_of_me.JPG" alt="picture of me">
             <div>
@@ -55,8 +64,9 @@
             </div>
         </section>
 
+        <!-- Biography: -->
         <section id="bio">
-            <h2>Biography:</h2>
+            <h3>Biography:</h3>
             <div>
                 <p>I want to learn useful skills (such as web development) that I can use to add value to the world. </p>
                 <p> I'm currently interested in coding, reading, working out, and politics.  </p>
@@ -65,8 +75,9 @@
             </div>
         </section>
 
+        <!-- Hobbies Section: -->
         <section id="hobbies">
-            <h2>Hobbies:</h2>
+            <h3>Hobbies:</h3>
             <ul>
                 <li>Classic and Ancient Literature</li>
                 <li>Weight Lifting</li>
@@ -77,37 +88,39 @@
             </ul>
         </section>
 
+        <!-- Image Gallery: -->
         <section id="gallery"> 
             
-            <h2>Photo Gallery:</h2>
+            <h3>Photo Gallery:</h3>
 
             <hr>
 
             <figure>
 
-             <img src="img/NATURE HOBBIES/algae-640w.jpg" alt="table with hot dogs, french fries, and beverages.">
+             <img src="img/NATURE HOBBIES/algae-640w.jpg" alt="blue lake with green algae under the surface">
              <figcaption>Some algae blooming under the a beautiful lake.</figcaption>
             </figure>
 
             <hr>
 
             <figure>
-                <img src="img/NATURE HOBBIES/butterfly-640w.jpg" alt="pizza with veggies and barbeque sauce."> 
+                <img src="img/NATURE HOBBIES/butterfly-640w.jpg" alt="black and blue butterfly on an orange flower"> 
                 <figcaption>A butterfly I came across on one of my walks.</figcaption>
             </figure>
 
             <hr>
 
             <figure>
-                <img src="img/NATURE HOBBIES/path-640w.jpg" alt="bowl of soup with noodles, seafood and veggies."> 
-                <figcaption>Autumn leaves falling at Duke Farms.</figcaption>
+                <img src="img/NATURE HOBBIES/path-640w.jpg" alt="Forked concrete path surrounded by grass and trees with orange falling leaves."> 
+                <figcaption>An autumn walk at Duke Farms.</figcaption>
             </figure>
 
         </section>
 
+        <!-- Blog Article: -->
         <article id="lit">
 
-            <h2>An Excerpt From <em>Dracula</em> :</h2>
+            <h3>An Excerpt From <em>Dracula</em> :</h3>
 
             <div>
                 <p>The box was given to Skinsky before sunrise. At sunrise the Count could appear in his own form. Here, we ask why Skinsky was chosen at all to aid in the work? In my husband's diary, Skinsky is mentioned as dealing with the Slovaks who trade down the river to the port; and the man's remark, that the murder was the work of a Slovak, showed the general feeling against his class. The Count wanted isolation.</p>
@@ -130,9 +143,10 @@
 
         </article>
 
+        <!-- Video: -->
         <section id="video">
             <div class="wrapper">
-                <h2>A Short Video:</h2>
+                <h3>A Short Video:</h3>
                 <figure>
                    
                     <div class="videowrapper">
@@ -143,11 +157,11 @@
                     </figcaption>
                 </figure>
             </div>
-
         </section>
 
+        <!-- Contact Form: -->
         <section id="contact">
-            <h2>Contact Us:</h2>
+            <h3>Contact Us:</h3>
             <form id="contactform" name="contactform" method="post" data-netlify="true">
                 
                 <fieldset>
@@ -209,6 +223,7 @@
 
     </main>
 
+    <!-- Footer: -->
     <footer>
         ©2023 - Kayla Molesko
         <a href="https://github.com/RVCC-IDMX/about-me-kmolesko.git"> Github Repository</a>
