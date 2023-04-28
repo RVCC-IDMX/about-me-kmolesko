@@ -1,4 +1,4 @@
-/* make scrolling smooth */
+/* /* /* /* make scrolling smooth */
 
 html {
     scroll-behavior: smooth;
@@ -24,19 +24,19 @@ main {
 
 /* navbar */
 
-.navbar {
-    background-color: #333;
+/*  .navbar {
+    background-color: #080808;
     color: whitesmoke;
     display: flex;
     flex-direction:column;
     font-size:1.5rem;
     margin-bottom: 1rem;
     padding:1rem;
-}
-
+}  */
+ 
 /* logo */
 
-.logo {
+/*  .logo {
     display:flex;
     align-items: center;
 }
@@ -48,40 +48,111 @@ main {
 
 .logo h1 {
     font-size: 1.2em;
-}
-
+} */
+ 
 
 /* navigation list */
 
-.navbar-links li {
+/* #nav-menu #links {
     list-style:none;
     display:block;
     padding:0.5em 0;
 }
-
+  */
 
 /*  
  style all a tags in header 
  and then on hover
 */
-
-.navbar-links a {
+/* 
+.nav-menu {
     color:whitesmoke;
-    background-color: #333;
+    background-color: #080808;
     font-size:2rem;
     padding:1rem 1.25rem;
     letter-spacing: 2px;
     text-decoration: none;
     display:inline-block;
-}
+}  */
 
-.navbar-links a:hover,
-.navbar-links a:focus {
-    color:#333;
+.nav-menu a:hover,
+.nav-menu a:focus {
+    color:#080808;
     background-color: whitesmoke;
-    border-radius:10px;
+    border-radius:100px;
     outline:none;
-}
+} 
+
+/* HAMBURGER */
+
+.navbar {
+    border-bottom: 1px solid grey;
+    }
+    
+         .nav-toggle {
+            position:absolute;
+            cursor: pointer;
+            margin: 0rem 1rem;
+            right:0;
+            }
+    
+            .nav-toggle img {
+                width:2rem;
+            }
+    
+            .nav-toggle #close {
+                display:none;
+            }
+    
+            .nav-toggle #menu {
+            margin-top:0.2rem;
+            }
+    
+        .nav-checkbox {
+            display:none;
+        }
+    
+       .nav-menu {
+            display:flex;
+            flex-direction:column;
+            gap:2rem;
+            align-items:center;
+            margin:1rem;
+        } 
+            .nav-menu li {
+                list-style:none;
+                display:none;
+            }
+                .nav-menu li:first-child {
+                    margin-right:auto;
+                    display:block;
+                }
+    
+        .navbar a {
+        text-decoration:none;
+        color:inherit;
+        font-size:1.2rem;}
+    
+      
+        .navbar img {
+        width:2rem;}
+
+        .nav-menu img {width:3rem
+         }
+    
+    #nav-checkbox:checked ~ ul.nav-menu li {
+        display:flex;
+        align-items:center;
+
+    }
+
+    #nav-checkbox:checked ~ label.nav-toggle .close {
+        display:block;
+    }
+    
+     #nav-checkbox:checked ~ label.nav-toggle .menu {
+        display:none;
+    }  
 
 /* 
 media query for non-mobile nav bar
@@ -89,15 +160,22 @@ min-width set to width of nav elements
 such that no text wraps 
 */
 
+
 @media screen and (min-width:60rem) {
 
-    .navbar {
+    .nav-toggle {
+        display:none;
+       }
+    
+    .nav-menu {
         flex-direction: row;
         justify-content:space-between;
     }
-    
-    .navbar ul {
-        display:flex;
-        justify-content:space-between;
-    }
+
+ 
+   .navbar li {
+    display:block;
+   }
 }
+
+

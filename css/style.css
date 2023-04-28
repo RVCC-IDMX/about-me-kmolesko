@@ -30,7 +30,7 @@ other color: purple #A799C7;
 
 
 
-*/
+*/ 
 
 
 body {
@@ -52,6 +52,8 @@ h2 {
     color:#BF6ED9;
 }
 
+
+
 header {
     text-align:center;
 }
@@ -59,25 +61,26 @@ header {
 /* Hero */
 
 #hero, footer {
-    background-color: whitesmoke;
+    background-color: #F7EFA8;
     /* border:5px solid #2D0059 ; */
     color: #080808;
     text-align: center;
 }
 
 #hero img {
-    width:300px;
+    width:400px;
     margin-top:3rem;
+    border:2px #2D0059 solid;
 }
 
-
-/* Bio */
+ 
+/* BIO */
 
 #bio { 
     text-align: center;
 }
 
-/* Hobbies */
+/* HOBBIES */
 
 #hobbies h2 {text-align: center;
 margin-bottom: 0rem;
@@ -176,10 +179,7 @@ padding-bottom: 0rem;
     color:#080808
 }
 
-/* tablet size */
 
-@media screen and (min-width:60em){
-    
 /* gallery */
 
 figure {
@@ -196,38 +196,6 @@ figcaption {
 
 figure img {
     width:100%;
-}
-
-/* literature */
-
-#lit div {
-    max-width:100%;
-    columns:40rem;
-
-}
-}
-
-/* laptop sized screens */
-
-@media screen and (min-width:100em) {
-
-#gallery {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-}
-
-hr {
-    display:none;
-}
-
-#gallery h2 {
-    grid-column: 1/-1;
-}
-
-figure {
-    display:block;
 }
 
 
@@ -336,7 +304,54 @@ legend {
     margin-bottom: 70px;
 }
 
-/* video on laptop sized screens: */
+
+/* HAMBURGER MENU (NAVBAR) */
+
+
+
+
+/* All Media Queries */
+
+/* tablet size */
+
+/* literature section */
+
+@media screen and (min-width:60em){
+
+    #lit div {
+        max-width:100%;
+        columns:40rem;
+    
+    }
+    }
+    
+  /* laptop sized screens */
+
+     /* literature section */
+    
+    @media screen and (min-width:100em) {
+    
+    #gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    }
+    
+    hr {
+        display:none;
+    }
+    
+    #gallery h2 {
+        grid-column: 1/-1;
+    }
+    
+    figure {
+        display:block;
+    }
+    
+
+    /* video section: */
 
 @media screen and (min-width:100em) {
 
@@ -361,4 +376,3 @@ legend {
     margin-left: 3.5rem;
 }}
  
-

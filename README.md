@@ -10,7 +10,7 @@ Kayla Molesko
 
 This purpose of this project is to provide informaton about myself using a variety website development techniques. It was created as a part of Web Development 1 at RVCC. 
 
-## Color Scheme:
+# Color Scheme:
 
 #BF6ED9 light purp
 #080808 blackish
