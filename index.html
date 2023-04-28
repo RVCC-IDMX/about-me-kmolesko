@@ -23,24 +23,26 @@
 <body>
 
     <header>
-        <nav class="navbar">
-            <div class="logo">
-                <img 
-                    src= "img/finallogo.svg"
-                    class="log-img"
-                    alt="kjm logo">
-
-                <h1 class="logo-title">Web Dev 1</h1>
-            </div>
-            <div class="navbar-links">
-                <ul>
-                    <li><a href="#bio" class="nav-links">Bio</a></li>
-                    <li><a href="#gallery" class="nav-links">Gallery</a></li>
-                    <li><a href="#lit" class="nav-links">Blog</a></li>
-                    <li><a href="#contact" class="nav-links">Contact Me</a></li>
-                </ul>
-            </div> 
-        </nav>
+        <h1 class="logo-title">Web Dev 1</h1>
+            <nav class="navbar">
+              <input type="checkbox" id="nav-checkbox" class="nav-checkbox">
+              <label for="nav-checkbox" class="nav-toggle">
+                   <img src="img/burger.svg" class="menu" id="menu">
+                   <img src="img/closex.svg" class="close" id="close">
+              </label>  
+                    <ul class="nav-menu">
+                        <li>
+                            <img 
+                                src= "img/finallogo.svg"
+                                class="log-img"
+                                alt="kjm logo">
+                        </li>
+                        <li><a href="#bio" class="nav-links" id="links">Bio</a></li>
+                        <li><a href="#gallery" class="nav-links" id="links">Gallery</a></li>
+                        <li><a href="#lit" class="nav-links" id="links">Blog</a></li>
+                        <li><a href="#contact" class="nav-links" id="links">Contact Me</a></li>
+                    </ul>
+            </nav>    
     </header>
 
     <main>
