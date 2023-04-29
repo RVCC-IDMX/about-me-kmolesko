@@ -120,25 +120,60 @@
         <!-- Blog Article: -->
         <article id="lit">
 
-            <h3>An Excerpt From <em>Dracula</em> :</h3>
+            <h3>CSS Animation:</h3>
 
-            <div>
-                <p>The box was given to Skinsky before sunrise. At sunrise the Count could appear in his own form. Here, we ask why Skinsky was chosen at all to aid in the work? In my husband's diary, Skinsky is mentioned as dealing with the Slovaks who trade down the river to the port; and the man's remark, that the murder was the work of a Slovak, showed the general feeling against his class. The Count wanted isolation.</p>
+            <div id="blog">
+                <p>Animation is a great way to draw the user’s attention to certain content on a webpage or to simply increase a site’s visual or artistic impact. In CSS, animation is a styling technique that allows the properties of an element to change over a select period of time. This can create a plentitude of different visual effects. 
+                </p>
 
-                <p>My surmise is, this: that in London the Count decided to get back to his castle by water, as the most safe and secret way. He was brought from the castle by Szgany, and probably they delivered their cargo to Slovaks who took the boxes to Varna, for there they were shipped for London. Thus the Count had knowledge of the persons who could arrange this service. When the box was on land, before sunrise or after sunset, he came out from his box, met Skinsky and instructed him what to do as to arranging the carriage of the box up some river. When this was done, and he knew that all was in train, he blotted out his traces, as he thought, by murdering his agent.</p>
+                <p>In order to implement CSS animation, the developer must initially specify the styling they wish their element to take on during the animation sequence. This is done within the brackets of an “at-rule” called the @keyframes rule, which allows the developer to define properties for multiple waypoints, or stopping points, throughout the animation. .</p>
 
-                <p>I have examined the map and find that the river most suitable for the Slovaks to have ascended is either the Pruth or the Sereth. I read in the typescript that in my trance I heard cows low and water swirling level with my ears and the creaking of wood. The Count in his box, then, was on a river in an open boat--propelled probably either by oars or poles, for the banks are near and it is working against stream. There would be no such sound if floating down stream.</p>
+                <p>Keyframes allow for simple transition from one style to a second using the syntax “from” and “to,” but it also allows for the use of percentages where in the process of an animation the styles will change. Percentages also allow many waypoints to be defined. After calling upon the @keyframes rule, the animation name assigned to the element that will take on these properties is inputted, followed by brackets.</p>
 
-                <p>Of course it may not be either the Sereth or the Pruth, but we may possibly investigate further. Now of these two, the Pruth is the more easily navigated, but the Sereth is, at Fundu, joined by the Bistritza which runs up round the Borgo Pass. The loop it makes is manifestly as close to Dracula's castle as can be got by water. When I had done reading, Jonathan took me in his arms and kissed me. The others kept shaking me by both hands, and Dr. Van Helsing said:--</p>
+                <p> @keyframes example {
+                    0%   {background-color: red;}
+                    25%  {background-color: yellow;}
+                    50%  {background-color: blue;}
+                    100% {background-color: green;}
+                  }
+                  </p>
 
-                <p>"Our dear Madam Mina is once more our teacher. Her eyes have been where we were blinded. Now we are on the track once again, and this time we may succeed. Our enemy is at his most helpless; and if we can come on him by day, on the water, our task will be over. He has a start, but he is powerless to hasten, as he may not leave his box lest those who carry him may suspect; for them to suspect would be to prompt them to throw him in the stream where he perish. This he knows, and will not. Now men, to our Council of War; for, here and now, we must plan what each and all shall do."</p>
+                <p>The above syntax indicates to CSS that the background color of the element with the animation name “example” will change from red to yellow to blue to green. When the animation is 0% complete (the initial property) the background will be red. After 25% of the animation time has passed, it will change to yellow, and so on.  </p>
 
-                <p>"I shall get a steam launch and follow him," said Lord Godalming.</p>
+                <p>@Keyframes is not the only property involved in animation- some coding must be done within the animated element. Most crucially, the animation must be give a name using the animation-name property, which is the name that will be typed next to the keyframes rule.</p>
 
-                <p>"And I, horses to follow on the bank lest by chance he land," said Mr. Morris.</p>
+                <p>In addition to @keyframes and animation-name, there is one more required property in order to get an animation running: this is animation-duration. The default value for this property is 0 seconds, so a time value must be specified in order for the animation to work. Using only animation-duration, animation-name and @keyframes, animations can be created with other default settings applied. However, there are a variety of additional animation properties that can be used.                 </p>
 
-                <p>"Good!" said the Professor, "both good. But neither must go alone. There must be force to overcome force if need be; the Slovak is strong and rough, and he carries rude arms." All the men smiled, for amongst them they carried a small arsenal. Said Mr. Morris:--</p>
+                <p>Animation-delay specifies a delayed animation start. Negative numbers may also be used to start the animation as if it had been running for the specified number value’s amount of time. </p>
+                
+                <p>Animation-delay specifies a delayed animation start. Negative numbers may also be used to start the animation as if it had been running for the specified number value’s amount of time. </p>
+
+                <p>By default, animations run one time and do not repeat. This can be changed with the property animation-iteration-count, which can indicate a number value that indicates how many times the animaton will run. To repeatedly run the animation, the value “infinite” is used.</p>
+
+                <p>Animations also run forwards by default, but with the animation-direction property they can be run forwards, backwards, or in alternate cycles using values normal, reverse, alternate, or alternate-reverse.</p>
+
+                
+                <p> The animation-timing-function specifies the speed curve of the animation. The default is ease (slow start, then fast, then slow end), but other values include linear (constant speed), ease-in (slow start), ease out (slow end), or cubic-bezier(n,n,n,n) which allows you to define your own cubic function using chosen values. </p>
+
+                <p>If an animation is not infinite, the element will have a certain styling before and after the animation is played.
+                A developer may use animation-fill-mode to specify the style while the animation is not playing. The default value is none, which calls for no styling applied before and after the execution of the animation. If value forwards is applied, the element retains the style set in the last keyframe after the animation’s end. If backwards is applied, the element takes on the style set by the first keyframe prior to the animation’s start (if a delay is present). With the value both, the element starts off with the styling of the first keyframe, and ends with the styling of the last. </p>
+
+                <p>To simplify the use of these properties, the shorthand property animation combines many of them into one, as exemplified below:</p>
+
+                <p>
+                    div {
+                      animation: animation-name animaton-duration animation-timing-function animaton-delay animation-iteration-count animation-direction;
+                    }
+                </p>
+
+
             </div>
+
+            <div id="demo">
+                <figure><h1>CSS ANIMATION</h1></figure>
+                
+                   
+               </div>
 
 
         </article>
