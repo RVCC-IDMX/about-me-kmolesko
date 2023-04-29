@@ -130,11 +130,12 @@ other color: purple #A799C7;
         background-color:whitesmoke;
         color:#1F1F1B;
     /*     border: 3px solid #F7EFA8; */
+    padding-bottom:50px;
         margin-bottom:2rem;
 
     }
 
-    #lit div {
+    #lit div:first-child {
         padding:2rem;
         max-width: 40rem;
         margin: 0 auto;
@@ -145,10 +146,10 @@ other color: purple #A799C7;
         clear:both;
     }
 
-    #lit h3 {
+    #lit h3:first-child {
         padding:2rem;
         max-width: 40rem;
-        margin: 0 auto;
+        margin:0 auto;
         text-align: center;
     }
 /* 
@@ -165,20 +166,33 @@ other color: purple #A799C7;
         100% {fill:green}
     }
  */
+
+#lit h1 {
+    margin-top:130px;
+}
+
+
     #demo figure {
         color:black;
         width: 700px;
-        height:300px;
+        height:400px;
+        max-width:100%;
+        display:block;
+        margin:auto;
         border:#080808 2px solid;
         background-color: red;
-        text-align:center;
-        margin:auto;
         animation-name: demo;
         animation-duration:5s;
         animation-iteration-count:infinite;
         animation-timing-function: linear;
         animation-direction:alternate;
     }
+
+#demo {
+    text-align:center;
+    margin-top:80px;
+}
+
 
  /*    #demo {
         overflow:hidden;
@@ -385,8 +399,8 @@ other color: purple #A799C7;
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
         }
-        
-        }
+    
+    
         
         hr {
             display:none;
@@ -398,7 +412,7 @@ other color: purple #A799C7;
         
         figure {
             display:block;
-        }
+        }}
         
 
         /* video section: */
