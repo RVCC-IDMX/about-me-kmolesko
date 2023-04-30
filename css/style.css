@@ -263,21 +263,7 @@ other color: purple #A799C7;
 
 /* GALLERY */
 
-    figure {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-    }
-    figcaption {
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 2rem;
-        margin-left: 1rem;
-    }
-
-    figure img {
-        width:100%;
-    }
+  
 
 
 /* CONTACT */
@@ -359,12 +345,11 @@ other color: purple #A799C7;
         width:100%;
     }
 
-    .wrapper figcaption {
+    /* .wrapper figcaption {
         
-        margin-top: 30px;
+    margin-top: 30px;
     color:#F7EFA8;
-    font-weight: bold;
-    }
+    } */
 
     #video {
         border: 3px solid #F7EFA8;
@@ -381,80 +366,76 @@ other color: purple #A799C7;
         margin-bottom: 70px;
     }
 
+        /* ALL MEDIA QUERIES::::: */
 
-/* ALL MEDIA QUERIES */
+
+            /* TABLET SIZE: */
+
+             /*  @media screen and (min-width:60em){
+                          
+                /* blog section */
+
+                                   
+
+                                            /* #blog {
+                                                max-width:100%;
+                                                columns:40rem;
+                                            
+                                            }
+                                             */
 
 
-/* TABLET SIZE */
+                            /* Gallery section*/
+                                
+                                    /*figure {
+                                      display: grid;
+                                     grid-template-columns: 2fr 1fr;
+                                    }
+                                     figcaption {
+                                        display:flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        font-size: 2rem;
+                                        margin-left: 1rem;
+                                      }
 
-    /* blog section */
+                                    figure img {
+                                        width:100%;
+                                    } */
+                              /*   } */
+                                
+              /* LAPTOP SIZE */
 
-    @media screen and (min-width:60em){
+               /* @media screen and (min-width:100em) {
 
-        #blog {
-            max-width:100%;
-            columns:40rem;
-        
-        }
-        }
-    
-  /* LAPTOP SIZE */
+                            /* gallery section*/
+                                
+                            /*    
+                                    
+                                    #gallery {
+                                        display: grid;
+                                        grid-template-columns: 1fr 1fr 1fr;
+                                    }
+                                    
+                                    #gallery hr {
+                                        display:none;
+                                    }
+                                    
+                                    #gallery h3 {
+                                        grid-column: 1/-1;
+                                    }
+                                    
+                                #gallery figure {
+                                        display:block;
+                                    }
+                                    */ */
 
-    /* gallery section*/
-    
-    @media screen and (min-width:100em) {
-        
-        #gallery {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-        }
-    
-    
-        
-        #gallery hr {
-            display:none;
-        }
-        
-        #gallery h3 {
-            grid-column: 1/-1;
-        }
-        
-      #gallery figure {
-            display:block;
-        }}
-        
+                             /* video section: */
 
-        /* video section: */
-
- /*    @media screen and (min-width:100em) {
-
-        #video figure {
-            display: grid;
-            grid-template-columns: 2fr 1fr;
-        }
-
-        .videowrapper {
-            display:flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 2rem;
-            margin-left: 1rem;
-        }
-
-        #video figcaption {
-            display:flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 2rem;
-            margin-left: 3.5rem;
-        }}
-         */
-    
-            @media screen and (min-width:100em) {
-        
-                #video .vidblocks {
-                    display: grid;
-                    grid-template-columns: 2fr 1fr;
-                }
-            }
-        
+                                /*     
+                                            #video .vidblocks {
+                                                display: grid;
+                                                grid-template-columns: 2fr 1fr;
+                                            }
+                                        } */
+                                    
