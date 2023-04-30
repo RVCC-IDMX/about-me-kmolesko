@@ -65,11 +65,13 @@ other color: purple #A799C7;
     }
 
     #hero img {
-        width:400px;
-        margin-top:3rem;
-        border:2px #2D0059 solid;
+       max-width:400px;
+        margin-top:2rem;
     }
 
+    #hero div {
+        padding-bottom:1rem;
+    }
  
 /* BIO */
 
