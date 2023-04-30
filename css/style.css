@@ -81,6 +81,7 @@ other color: purple #A799C7;
     #hero img {
        max-width:95%;
     margin-top:2rem;
+    filter:grayscale(100%);
     }
 
     #hero figure {
