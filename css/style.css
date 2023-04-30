@@ -138,12 +138,14 @@ other color: purple #A799C7;
     #lit div:first-child {
         padding:2rem;
         max-width: 40rem;
-        margin: 0 auto;
+        margin: auto;
     }
 
     #lit div p {
         padding: 0.3rem 0;
         clear:both;
+        margin-left:3rem;
+        margin-right:3rem;
     }
 
     #lit h3:first-child {
