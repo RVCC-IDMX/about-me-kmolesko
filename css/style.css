@@ -65,7 +65,7 @@ other color: purple #A799C7;
     }
 
     #hero img {
-       max-width:400px;
+       max-width:95%;
     margin-top:2rem;
     }
 
@@ -128,7 +128,7 @@ other color: purple #A799C7;
     }
 
     #gallery img {
-        max-width:100%;
+        max-width:95%;
     }
 
 /* BLOG */
@@ -176,18 +176,14 @@ other color: purple #A799C7;
     }
  */
 
-#lit h1 {
-    margin-top:130px;
-}
-
 
     #demo figure {
         color:black;
         width: 700px;
-        height:400px;
-        max-width:100%;
+        height:200px;
         display:block;
         margin:auto;
+        max-width:95%;
         border:#080808 2px solid;
         background-color: red;
         animation-name: demo;
@@ -197,10 +193,13 @@ other color: purple #A799C7;
         animation-direction:alternate;
     }
 
-#demo {
+#demo figure {
     text-align:center;
-    margin-top:80px;
+    margin:auto;
+    padding-top:75px;
+    padding-bottom:0;
 }
+
 
 
  /*    #demo {
@@ -270,13 +269,13 @@ other color: purple #A799C7;
 
     #formElements {
         display:grid;
-        row-gap:.5em; 
+        row-gap:.5rem; 
 
     }
 
     #contact {
         padding:1rem;
-        max-width: 600px;
+        max-width: 95%;
         margin:2rem auto;
         background-color: whitesmoke;
         color:#080808;
@@ -284,20 +283,20 @@ other color: purple #A799C7;
 
     fieldset {
         border: 2px solid #080808;
-        margin-top: 1em;
-        margin-bottom: 1em;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
 
     legend {
         background-color: /* #485CA8 */ #BF6ED9;
         color: whitesmoke;
-        padding:0.5em;
+        padding:0.5rem;
         border: 2px solid #080808;
 
     }
 
     #contact input, #contact textarea, #contact select, #contact button {
-        padding: 0.5em;
+        padding: 0.5rem;
         font-size: 1rem;
     }
 
@@ -319,7 +318,7 @@ other color: purple #A799C7;
         background-image: radial-gradient(whitesmoke,#BF6ED9,#2D0059);
         color: #2D0059;
         border: 2px solid #2D0059;
-        max-width:400px;
+        max-width:95%;
         width:50%;
         justify-self: center;
         box-shadow: 2px 2px 4px #2D0059;
