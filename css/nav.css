@@ -75,25 +75,33 @@ main {
     display:inline-block;
 }  */
 
-.nav-menu a:hover,
-.nav-menu a:focus {
+.nav-menu a:hover,.nav-menu a:focus
+ {
     color:#080808;
     background-color: whitesmoke;
-    border-radius:100px;
-    outline:none;
+    border-radius:0rem;
+    outline-width: 2rem;
 } 
 
 /* HAMBURGER */
 
+.navbar h2 {
+    font-size:1.2rem;
+}
+
 .navbar {
-    border-bottom: 1px solid grey;
+    border-bottom: 2px solid grey;
     }
+
     
          .nav-toggle {
             position:absolute;
             cursor: pointer;
             margin: 0rem 1rem;
             right:0;
+            padding-top:0.6rem;
+            padding-bottom:0;
+            margin-bottom:0;
             }
     
             .nav-toggle img {
@@ -105,7 +113,7 @@ main {
             }
     
             .nav-toggle #menu {
-            margin-top:0.2rem;
+            width:2rem;;
             }
     
         .nav-checkbox {
@@ -115,32 +123,22 @@ main {
        .nav-menu {
             display:flex;
             flex-direction:column;
-            gap:2rem;
+            gap:1rem;
             align-items:center;
-            margin:1rem;
+            margin:0.5rem; 
         } 
             .nav-menu li {
                 list-style:none;
                 display:none;
             }
-                .nav-menu li:first-child {
-                    margin-right:auto;
-                    display:block;
-                }
+               
     
         .navbar a {
         text-decoration:none;
         color:inherit;
-        font-size:1.2rem;}
-    
-      
-        .navbar img {
-        width:2rem;}
+        font-size:0.5rem;}
 
-        .nav-menu img {
-            width:3rem
-    
-         }
+     
     
     #nav-checkbox:checked ~ ul.nav-menu li {
         display:flex;
