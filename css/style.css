@@ -66,7 +66,12 @@ other color: purple #A799C7;
 
     #hero img {
        max-width:400px;
-        margin-top:2rem;
+    margin-top:2rem;
+    }
+
+    #hero figure {
+        display:block;
+        margin:auto;
     }
 
     #hero div {
@@ -395,7 +400,7 @@ other color: purple #A799C7;
     
   /* LAPTOP SIZE */
 
-    /* blog section */
+    /* gallery section*/
     
     @media screen and (min-width:100em) {
         
@@ -406,7 +411,7 @@ other color: purple #A799C7;
     
     
         
-        hr {
+        #gallery hr {
             display:none;
         }
         
@@ -414,14 +419,14 @@ other color: purple #A799C7;
             grid-column: 1/-1;
         }
         
-        figure {
+      #gallery figure {
             display:block;
         }}
         
 
         /* video section: */
 
-    @media screen and (min-width:100em) {
+ /*    @media screen and (min-width:100em) {
 
         #video figure {
             display: grid;
@@ -443,4 +448,13 @@ other color: purple #A799C7;
             font-size: 2rem;
             margin-left: 3.5rem;
         }}
+         */
+    
+            @media screen and (min-width:100em) {
+        
+                #video .vidblocks {
+                    display: grid;
+                    grid-template-columns: 2fr 1fr;
+                }
+            }
         
