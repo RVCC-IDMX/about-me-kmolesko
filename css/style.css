@@ -34,7 +34,7 @@ other color: purple #A799C7;
 
     body {
         font-family:"Roboto Condensed";
-        background-color: 	#080808 ;
+        background-color: 	#1F1F1B ;
         color:#f5f5f5;
         font-size:1rem;
     }
@@ -46,9 +46,9 @@ other color: purple #A799C7;
 
     h3 {
         margin: 0;
-        font-size:2rem;
+        font-size:1.5rem;
         text-align: center;
-        color:#BF6ED9;
+        color:rgb(255, 253, 142);
         padding:0;
     }
 
@@ -63,6 +63,7 @@ other color: purple #A799C7;
         margin:auto;
         display:flex;
         margin-left:1rem;
+        max-width:100%;
         width:3rem;
         margin-bottom:0;
         padding-bottom:0;
@@ -82,6 +83,13 @@ other color: purple #A799C7;
        max-width:95%;
     margin-top:2rem;
     filter:grayscale(100%);
+  border:2px solid rgb(255, 253, 142);
+    box-shadow: -7px -7px 0 2px grey, 10px 10px 0 2px black;
+    }
+
+    #hero img:hover{
+        -webkit-filter: grayscale(50);
+        filter:none;
     }
 
     #hero figure {
@@ -93,11 +101,23 @@ other color: purple #A799C7;
         padding-bottom:0.5rem;
     }
  
+    #hero {
+        padding:0;
+        margin:0;
+        border:0;;
+    }
+
+
 /* BIO */
 
     #bio { 
        text-align:center; margin:auto;
     }
+
+    #bio h3 {
+        margin-top: 1rem;
+    }
+
 
 /* HOBBIES */
 
@@ -135,7 +155,7 @@ other color: purple #A799C7;
 /* GALLERY */
 
     #gallery {
-        border: 3px solid #F7EFA8;
+        
         margin:auto;
         padding:0;
         text-align: center;
@@ -146,6 +166,7 @@ other color: purple #A799C7;
         padding:0;
         max-width:100%;
     }
+
 
 /* BLOG */
 
@@ -158,6 +179,7 @@ other color: purple #A799C7;
     }
 
     #lit h3{
+        color:#1F1F1B;
         padding-bottom:0;
         margin-bottom:0;
     }
@@ -370,12 +392,29 @@ other color: purple #A799C7;
                                 
               /* LAPTOP SIZE */
 
+
+
+
+
+
                /* @media screen and (min-width:100em) {
 
+
+                            /* hero section */
+
+                                    /* 
+                                    #section1 {
+                                        display:flex;
+                                        background-color:whitesmoke;
+                                    }
+
+
+                                    #section1 .column {
+                                        flex:50%} */
+
                             /* gallery section*/
-                                
+                        
                             /*    
-                                    
                                     #gallery {
                                         display: grid;
                                         grid-template-columns: 1fr 1fr 1fr;

@@ -77,8 +77,8 @@ main {
 
 .nav-menu a:hover,.nav-menu a:focus
  {
-    color:#080808;
-    background-color: whitesmoke;
+    color:rgb(255, 253, 142);
+    background-color: #1f1f1f;
     border-radius:0rem;
     outline-width: 2rem;
 } 
@@ -178,6 +178,7 @@ such that no text wraps
  
    .navbar li {
     display:block;
+
    }
 }
 
