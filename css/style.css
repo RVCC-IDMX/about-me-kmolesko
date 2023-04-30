@@ -235,8 +235,8 @@ other color: purple #A799C7;
     /* Dropcaps */
 
         #lit p:first-child:first-letter {
-            color:  #080808;
-            background-image: radial-gradient(whitesmoke,#BF6ED9,#2D0059);
+            color:  black;
+            background-image: radial-gradient(whitesmoke,rgb(255, 253, 142),gold);
             font-size: 2.5rem;
             padding:0;
             margin:0;
@@ -245,7 +245,7 @@ other color: purple #A799C7;
             margin-bottom:0.5rem;
             margin-right:0.25rem;
             border:1px solid #080808;
-            box-shadow: 2px 2px 5px #2D0059;
+            box-shadow: 2px 2px 5px rgb(255, 253, 142);
 
         }
 
@@ -253,6 +253,12 @@ other color: purple #A799C7;
 
 
 /* VIDEO: */
+
+#video h3 {
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+
 
 .videowrapper {
     position:relative;
@@ -274,7 +280,7 @@ other color: purple #A799C7;
 .videowrapper {
     
     border: 1px solid  
-    #BF6ED9;
+    rgb(255, 253, 142);
 /*  box-shadow: 2px 2px 6px  
     #BF6ED9; */
 }
@@ -292,6 +298,8 @@ other color: purple #A799C7;
 
 /* CONTACT */
 
+
+
     #formElements {
         display:grid;
         row-gap:.5rem; 
@@ -301,23 +309,22 @@ other color: purple #A799C7;
     #contact {
         padding:1rem;
         margin:2rem auto;
-        background-color: whitesmoke;
-        color:#080808;
+        color:rgb(255, 253, 142);
         padding-bottom:3rem;
     }
 
     fieldset {
-        border: 2px solid #080808;
+        border: 1px solid rgb(255, 253, 142);
         margin-top: 1rem;
         margin-bottom: 0.5rem;
        
     }
 
     legend {
-        background-color: /* #485CA8 */ #BF6ED9;
+        background-color: /* #485CA8 */ grey;
         color: whitesmoke;
         padding:0.5rem;
-        border: 2px solid #080808;
+        border: 2px solid rgb(255, 253, 142);
 
     }
 
@@ -327,7 +334,7 @@ other color: purple #A799C7;
     }
 
     #contact h3 {
-        color:#080808
+        color:rgb(255, 253, 142);
     }
 
     #contact ul {
@@ -341,13 +348,13 @@ other color: purple #A799C7;
 
     #contact button {
         font-size: 1.5rem;
-        background-image: radial-gradient(whitesmoke,#BF6ED9,#2D0059);
-        color: #2D0059;
-        border: 2px solid #2D0059;
+        background-image: radial-gradient(whitesmoke,rgb(255, 253, 142),gold);
+        color: black;
+        border: 2px solid black;
         max-width:95%;
         width:50%;
         justify-self: center;
-        box-shadow: 2px 2px 4px #2D0059;
+        box-shadow: 2px 2px 4px rgb(255, 253, 142);
     }
 
 
