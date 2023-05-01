@@ -65,9 +65,7 @@ other color: purple #A799C7;
         display:flex;
         margin-left:1rem;
         max-width:100%;
-        width:3rem;
-        margin-bottom:0;
-        padding-bottom:0;
+        padding:0;
     }
 
     footer {
@@ -178,7 +176,7 @@ color:goldenrod;
         margin:auto;
         padding:0;
         text-align: center;
-        border-top: 0.5px solid goldenrod;
+        border-top: 0.5px solid rgb(255, 253, 142);
         
     }
 
@@ -193,7 +191,7 @@ color:goldenrod;
    
     margin:0;
 max-width:100%;
-border: dashed rgb(255, 253, 142) 1px; }
+border: 1px dashed goldenrod; }
        
     #gallery figure {
     
@@ -406,7 +404,7 @@ border: dashed rgb(255, 253, 142) 1px; }
 
             /* TABLET SIZE: */
 
-              /* @media screen and (min-width:60em){ */
+              @media screen and (min-width:60em) {
                           
                 /* blog section */
 
@@ -417,16 +415,16 @@ border: dashed rgb(255, 253, 142) 1px; }
                                                 columns:40rem;
                                             
                                             }
-                                             */ */
+                                             */ 
 
 
                             /* Gallery section*/
                                 
-                                  /*   figure {
+                                  #gallery  figure {
                                       display: grid;
                                      grid-template-columns: 2fr 1fr;
                                     }
-                                     figcaption {
+                                    #gallery figcaption {
                                         display:flex;
                                         justify-content: center;
                                         align-items: center;
@@ -434,10 +432,10 @@ border: dashed rgb(255, 253, 142) 1px; }
                                         margin-left: 1rem;
                                       }
 
-                                    figure img {
+                                    #gallery figure img {
                                         width:100%;
-                                    } */ */
-                              /*   } */
+                                    }  
+                                 } 
                                 
               /* LAPTOP SIZE */
 
@@ -475,7 +473,7 @@ border: dashed rgb(255, 253, 142) 1px; }
                                 #gallery figure {
                                         display:block;
                                     }
-                                    
+                                
 
                              /* video */
 
