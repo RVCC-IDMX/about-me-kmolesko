@@ -36,7 +36,7 @@ other color: purple #A799C7;
         font-family:"Roboto Condensed";
         background-color: 	#1F1F1B ;
         color:#f5f5f5;
-        font-size:1rem;
+        font-size:0.9rem;
     }
 
     h1,h2,h3,h4,h5,h6 {
@@ -49,7 +49,8 @@ other color: purple #A799C7;
         font-size:1.5rem;
         text-align: center;
         color:rgb(255, 253, 142);
-        padding:0;
+        padding:0.5rem;
+    
     }
 
   header {
@@ -68,6 +69,14 @@ other color: purple #A799C7;
         margin-bottom:0;
         padding-bottom:0;
     }
+
+    footer {
+        padding:1rem;
+    }
+
+    footer a {
+color:goldenrod;
+    }
   
 
 /* HERO */
@@ -82,9 +91,10 @@ other color: purple #A799C7;
     #hero img {
        max-width:95%;
     margin-top:2rem;
+    margin-bottom:0.5rem;
     filter:grayscale(100%);
-  border:2px solid rgb(255, 253, 142);
-    box-shadow: -7px -7px 0 2px grey, 10px 10px 0 2px black;
+  border:2px dashed rgb(255, 253, 142);
+    box-shadow: -1px -1px 0px 0.5px goldenrod,-5px -7px 0 2px grey, 6px 9px 0 2px black;
     }
 
     #hero img:hover{
@@ -105,6 +115,12 @@ other color: purple #A799C7;
         padding:0;
         margin:0;
         border:0;;
+    
+    }
+
+    #hero h2 {
+        padding:0rem;
+        margin:0
     }
 
 
@@ -115,15 +131,12 @@ other color: purple #A799C7;
     }
 
     #bio h3 {
-        margin-top: 1rem;
+        padding-top:1rem;
     }
 
 
 /* HOBBIES */
 
-    #hobbies h3 {text-align: center;
-    margin:auto;
-    }
 
   /*   #hobbies {
     border: #F7EFA8 solid 3px;
@@ -152,21 +165,44 @@ other color: purple #A799C7;
         align-items: center;
     }
 
+
+
 /* GALLERY */
 
+
+#gallery h3 {
+    padding-bottom:1rem;
+}
     #gallery {
         
         margin:auto;
         padding:0;
         text-align: center;
+        border-top: 0.5px solid goldenrod;
+        
+    }
+
+  
+    #gallery figcaption {
+       display:block;
+       width:100%
+
     }
 
     #gallery img {
-        margin:auto;
-        padding:0;
+   
+    margin:0;
+max-width:100%;
+border: dashed rgb(255, 253, 142) 1px; }
+       
+    #gallery figure {
+    
+       
         max-width:100%;
+        margin:0;
+        margin-right:0.2rem;
+        padding-bottom:1rem;
     }
-
 
 /* BLOG */
 
@@ -174,14 +210,12 @@ other color: purple #A799C7;
         background-color:whitesmoke;
         color:#1F1F1B;
         padding-bottom:2rem;
-        font-size:1rem;
 
     }
 
     #lit h3{
         color:#1F1F1B;
-        padding-bottom:0;
-        margin-bottom:0;
+        padding-top:1rem;
     }
 
     #lit div:first-child {
@@ -197,11 +231,6 @@ other color: purple #A799C7;
         margin-right:1rem;
     }
 
-    #lit h3:first-child {
-        padding:1rem;
-        margin:0 auto;
-        text-align: center;
-    }
 
     #demo figure {
         color:black;
@@ -236,16 +265,16 @@ other color: purple #A799C7;
 
         #lit p:first-child:first-letter {
             color:  black;
-            background-image: radial-gradient(whitesmoke,rgb(255, 253, 142),gold);
+            background-image: radial-gradient(whitesmoke, rgb(255, 253, 142),black);
             font-size: 2.5rem;
             padding:0;
+            padding-bottom:0rem;
             margin:0;
             padding-right:0.25rem;
             padding-left:0.25rem;
-            margin-bottom:0.5rem;
-            margin-right:0.25rem;
-            border:1px solid #080808;
-            box-shadow: 2px 2px 5px rgb(255, 253, 142);
+            margin-right:0.5rem;
+            border:1px outset #080808;
+            box-shadow: 0px 0px 0px 1px black, 2px -2px 0 1px grey, 4px -4px 0 1px black;
 
         }
 
@@ -255,10 +284,9 @@ other color: purple #A799C7;
 /* VIDEO: */
 
 #video h3 {
-    margin-top:1rem;
-    margin-bottom:1rem;
+    padding:1rem;
+    margin-top:0.5rem;
 }
-
 
 .videowrapper {
     position:relative;
@@ -279,13 +307,14 @@ other color: purple #A799C7;
 
 .videowrapper {
     
-    border: 1px solid  
+    border: 1px dashed  
     rgb(255, 253, 142);
 /*  box-shadow: 2px 2px 6px  
     #BF6ED9; */
 }
 
 #video figure {
+    padding-top:0.5rem;
     margin:auto;
     width:98%;
 }
@@ -293,8 +322,8 @@ other color: purple #A799C7;
 #video figcaption {
     padding:1rem;
     margin:0rem;
+    padding-bottom:2rem;
 }
-
 
 /* CONTACT */
 
@@ -307,24 +336,31 @@ other color: purple #A799C7;
     }
 
     #contact {
-        padding:1rem;
+        padding:0rem;
         margin:2rem auto;
-        color:rgb(255, 253, 142);
-        padding-bottom:3rem;
+        background-color:whitesmoke;
+        color:black;
+        padding-bottom:5rem;
+        margin-top:1rem;
     }
 
     fieldset {
-        border: 1px solid rgb(255, 253, 142);
+        border: 1.5px solid goldenrod;
         margin-top: 1rem;
-        margin-bottom: 0.5rem;
+        margin-bottom: 0rem;
+       padding-top:1rem;
+       padding-bottom:1rem;
+       padding-top:1rem;
+       margin-left:0.5rem;
+       margin-right:0.5rem;
        
     }
 
     legend {
-        background-color: /* #485CA8 */ grey;
+        background-color: #1F1F1B;
         color: whitesmoke;
         padding:0.5rem;
-        border: 2px solid rgb(255, 253, 142);
+        border: 1.5px solid goldenrod;
 
     }
 
@@ -334,7 +370,10 @@ other color: purple #A799C7;
     }
 
     #contact h3 {
-        color:rgb(255, 253, 142);
+        color:black;
+        padding-top: 2rem;
+
+   
     }
 
     #contact ul {
@@ -347,14 +386,17 @@ other color: purple #A799C7;
     }
 
     #contact button {
-        font-size: 1.5rem;
-        background-image: radial-gradient(whitesmoke,rgb(255, 253, 142),gold);
+        font-size: 1.2rem;
+        background-image: radial-gradient(whitesmoke, rgb(255, 253, 142),black);
         color: black;
-        border: 2px solid black;
-        max-width:95%;
+        margin-top:0.5rem;
+        max-width: 95%;
         width:50%;
         justify-self: center;
-        box-shadow: 2px 2px 4px rgb(255, 253, 142);
+        border:2px outset #080808;
+           /*  box-shadow: -3px 3px 0 1px black, 2px -2px 0 1px whitesmoke; */
+        box-shadow: -3px -3px 0px 0.5px black;
+
     }
 
 
