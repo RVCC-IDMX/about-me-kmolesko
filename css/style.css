@@ -59,7 +59,7 @@
 
     #hero, footer {
         background-color: whitesmoke;
-        color: #0f0f0f;
+        color: #1F1F1F;
         text-align: center;
     }
 
@@ -71,7 +71,7 @@
         margin-bottom:0.5rem;
         filter:grayscale(100%);
         border:2px dashed rgb(255, 253, 142);
-        box-shadow: -1px -1px 0px 0.2px goldenrod,-5px -7px 0 2px #9e9e96, 6px 9px 0 2px #1F1F1F;
+        box-shadow: -1px -1px 0px 0.2px goldenrod,-5px -7px 0 2px #9e9e96, 7px 7px 0 2px #1F1F1F;
     }
 
     /* hover effect filter: */
@@ -300,7 +300,7 @@
         padding-right:0.25rem;
         padding-left:0.25rem;
         margin-right:0.5rem;
-        border:1px outset #0f0f0f;
+        border:1px outset #1f1f1f;
         box-shadow: 0px 0px 0px 1px black, 2px -2px 0 1px #9e9e96, 4px -4px 0 1px black;
 
      }
@@ -434,12 +434,12 @@
     #contact button {
         font-size: 1.2rem;
         background-image: radial-gradient(whitesmoke, rgb(255, 253, 142),#0f0f0f);
-        color: #0f0f0f;
+        color: #1f1f1f;
         margin-top:0.5rem;
         max-width: 95%;
         width:50%;
         justify-self: center;
-        border:2px outset #0f0f0f;
+        border:2px outset #1f1f1f;
            /*  box-shadow: -3px 3px 0 1px black, 2px -2px 0 1px whitesmoke; */
         box-shadow: -3px -3px 0px 0.3px black;
 
