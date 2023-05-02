@@ -260,6 +260,28 @@ border: 1px dashed goldenrod; }
         color:rgba(0,0,0,1);}
     }
 
+    #lit .red {
+        color:rgb(0, 133, 0);
+    }
+
+    #lit .blue {
+        color: black;
+    }
+
+    #lit .green {
+        color:rgb(186, 136, 8);
+    }
+
+
+    #lit img {
+        max-width:90%
+     
+    }
+
+    #code {
+        text-align:center;
+    }
+
     /* Dropcaps */
 
         #lit p:first-child:first-letter {
@@ -345,7 +367,7 @@ border: 1px dashed goldenrod; }
     }
 
     fieldset {
-        border: 1.5px solid goldenrod;
+        border: 1.5px solid rgb(186, 136, 8);
         margin-top: 1rem;
         margin-bottom: 0rem;
        padding-top:1rem;
@@ -360,7 +382,7 @@ border: 1px dashed goldenrod; }
         background-color: #1F1F1B;
         color: whitesmoke;
         padding:0.5rem;
-        border: 1.5px solid goldenrod;
+        border: 1.5px solid rgb(186, 136, 8);
 
     }
 
