@@ -34,7 +34,7 @@ other color: purple #A799C7;
 
     body {
         font-family:"Roboto Condensed";
-        background-color: 	#1F1F1B ;
+        background-color: 	#1F1F1F;
         color:#f5f5f5;
         font-size:0.9rem;
     }
@@ -42,7 +42,16 @@ other color: purple #A799C7;
     h1,h2,h3,h4,h5,h6 {
         font-family:Phudu; }
 
-    h1 {font-size:4rem;}
+    h1 {font-size:4rem;
+    margin:0;;
+padding:0;}
+
+header h2{
+    padding:0;
+    margin:0
+}
+
+
 
     h3 {
         margin: 0;
@@ -92,7 +101,7 @@ color:goldenrod;
     margin-bottom:0.5rem;
     filter:grayscale(100%);
   border:2px dashed rgb(255, 253, 142);
-    box-shadow: -1px -1px 0px 0.5px goldenrod,-5px -7px 0 2px grey, 6px 9px 0 2px black;
+    box-shadow: -1px -1px 0px 0.5px goldenrod,-5px -7px 0 2px #9e9e96, 6px 9px 0 2px #1F1F1F;
     }
 
     #hero img:hover{
@@ -123,6 +132,10 @@ color:goldenrod;
 
 
 /* BIO */
+
+.yellow {
+    color: rgb(255, 253, 142);
+}
 
     #bio { 
        text-align:center; margin:auto;
@@ -206,7 +219,7 @@ border: 1px dashed goldenrod; }
 
     #lit {
         background-color:whitesmoke;
-        color:#1F1F1B;
+        color:#1f1f1f;
         padding-bottom:2rem;
 
     }
@@ -241,7 +254,7 @@ border: 1px dashed goldenrod; }
         justify-content:center;
         align-items: center;
         max-width:95%;
-        border:#080808 2px solid;
+        border:#1f1f1f 2px solid;
         background-color: red;
         animation-name: demo;
         animation-duration:5s;
@@ -295,7 +308,7 @@ border: 1px dashed goldenrod; }
             padding-left:0.25rem;
             margin-right:0.5rem;
             border:1px outset #080808;
-            box-shadow: 0px 0px 0px 1px black, 2px -2px 0 1px grey, 4px -4px 0 1px black;
+            box-shadow: 0px 0px 0px 1px black, 2px -2px 0 1px #9e9e96, 4px -4px 0 1px black;
 
         }
 
@@ -392,7 +405,7 @@ border: 1px dashed goldenrod; }
     }
 
     #contact h3 {
-        color:black;
+        color:#1F1F1F;
         padding-top: 2rem;
 
    
@@ -431,6 +444,10 @@ border: 1px dashed goldenrod; }
               @media screen and (min-width:640px) {
                           
                 /* blog section */
+
+                body {
+                    font-size:1rem;
+                }
 
                 #blog {
                     max-width:100%;
@@ -494,7 +511,9 @@ border: 1px dashed goldenrod; }
 
                             /* gallery section*/
                         
-                                
+                                body {
+                                    font-size:1.2rem;
+                                }
                                     #gallery {
                                         display: grid;
                                         grid-template-columns: 1fr 1fr 1fr;
