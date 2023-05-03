@@ -1,6 +1,7 @@
 # README
 
 Kayla Molesko
+![logo](img/favicon9696.png)
 
 ## Netlify Status Badge:
 
@@ -15,6 +16,8 @@ As I built upon this project, I have learned and practiced a variety of web deve
 ### Hero
 
 While constructing the hero section, I learned how to write basic html using heading and body text styles, how to insert image files, and how to style them. Styling the selfie on the front helped me master the border-shadow property. 
+
+In this section I also include a logo which I created using the program figma. I used the google font "ceviche," and I added strokes and shadowing to the letters.
 
 ### Biography and Hobbies
 
@@ -48,7 +51,7 @@ The dark grey I chose is slightly warm to match the yellow tones of my color sch
 
 For accent colors, I chose a light grey, a dark yellow called goldenrod. I also used a very dark grey/black for some small details such as the gradient in my dropcaps. 
 
-I tested my colors for color blind accessbility and contrast and found no conflicts regarding readability of the page.<br>
+I tested my colors for color blindness and contrast and found no conflicts regarding accessibility or readability of the page.<br>
 
 **dark grey:** #313131 rgb(49,49,49) <br>
 **whitesmoke:** #F5F5F5 rgb(245,245,245) <br>
@@ -62,7 +65,18 @@ I tested my colors for color blind accessbility and contrast and found no confli
 
 ## Citations:
 
+Blog Article Sources: <br>
 
+<a href="https://www.w3schools.com/css/css3_animations.asp"> <br>
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes"> <br>
+
+Other: <br>
+
+Menu icons by <a href="https://www.svgrepo.com" target="_blank">SVG Repo</a> <br>
+
+Color palette created and captured from <a href="color.adobe.com"> <br>
 
 ## License:
 
+All rights reserved.
