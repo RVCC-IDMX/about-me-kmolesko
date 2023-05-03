@@ -288,6 +288,12 @@
         text-align:center;
     }
 
+    /*make source links inherit text color*/
+   #lit a {
+        color:inherit;
+        
+    }
+
     /* Dropcaps */
 
     #lit p:first-child:first-letter {

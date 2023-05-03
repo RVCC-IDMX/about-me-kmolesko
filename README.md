@@ -1,6 +1,6 @@
 # README
 
-Kayla Molesko
+Kayla Molesko<br>
 ![logo](img/favicon9696.png)
 
 ## Netlify Status Badge:
@@ -53,6 +53,8 @@ For accent colors, I chose a light grey, a dark yellow called goldenrod. I also 
 
 I tested my colors for color blindness and contrast and found no conflicts regarding accessibility or readability of the page.<br>
 
+### Color Codes:
+
 **dark grey:** #313131 rgb(49,49,49) <br>
 **whitesmoke:** #F5F5F5 rgb(245,245,245) <br>
 **light yellow:** #FFFD8E rgb(255,253,142) <br>
@@ -67,15 +69,17 @@ I tested my colors for color blindness and contrast and found no conflicts regar
 
 Blog Article Sources: <br>
 
-<a href="https://www.w3schools.com/css/css3_animations.asp"> <br>
+Lieu, Z. (2017, December 20). CSS Animations Explained. Zell. Retrieved May 2, 2023, from <a href="https://zellwk.com/blog/css-animations">https://zellwk.com/blog/css-animations</a>  <br>
 
-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes"> <br>
+Mozilla. (n.d.). CSS: Cascading style sheets. MDN. Retrieved May 2, 2023, from <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes">https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes</a> <br>
+
+W3.CSS. (n.d.). CSS Animations. W3 Schools. Retrieved May 2, 2023, from <a href="https://www.w3schools.com/css/css3_animations.asp">https://www.w3schools.com/css/css3_animations.asp</a> <br>
 
 Other: <br>
 
 Menu icons by <a href="https://www.svgrepo.com" target="_blank">SVG Repo</a> <br>
 
-Color palette created and captured from <a href="color.adobe.com"> <br>
+Color palette created and captured from *color.adobe.com*
 
 ## License:
 
