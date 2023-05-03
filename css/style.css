@@ -434,7 +434,7 @@
     #contact button {
         font-size: 1.2rem;
         background-image: radial-gradient(whitesmoke, rgb(255, 253, 142),#0f0f0f);
-        color: #1f1f1f;
+        color: rgb(31, 31, 31);
         margin-top:0.5rem;
         max-width: 95%;
         width:50%;
