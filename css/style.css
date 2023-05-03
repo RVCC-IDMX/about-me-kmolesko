@@ -239,12 +239,16 @@
         max-width:95%;
         border:#313131 2px solid;
         background-color: red;
+    }
+
+
+    #demo figure {
         animation-name: demo;
         animation-duration:5s;
         animation-iteration-count:infinite;
         animation-timing-function: linear;
-        animation-direction:alternate;
-    }
+        animation-direction:alternate;}
+
 
     /* defined waypoints for animation */
 
@@ -276,13 +280,14 @@
         color:rgb(186, 136, 8);
     }
 
-    /*added a mac width to image with code*/
+    /*added a width max width to images demonstratng code*/
 
     #lit img {
-        max-width:90%
+        width:400px;
+        max-width: 90%;
     }
 
-    /* centered image */
+    /* centered images */
 
     #code {
         text-align:center;
